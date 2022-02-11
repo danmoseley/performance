@@ -614,3 +614,10 @@ Adding given type/method to particular category requires using a `[BenchmarkCate
 [BenchmarkCategory(Categories.Libraries)]
 public class SomeType
 ```
+
+Optionally, you can add multiple categories - see the [list here](../src/benchmarks/micro/Categories.cs):
+
+```c#
+[BenchmarkCategory(Categories.Libraries, Categories.Regex)]
+public class Perf_Regex_Common
+```

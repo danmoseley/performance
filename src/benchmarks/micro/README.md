@@ -71,4 +71,3 @@ If you **prefer to use dotnet cli** instead of CoreRun, you need to pass the pat
 BenchmarkDotNet allows you to run the benchmarks for private builds of [Full .NET Framework](../../../docs/benchmarkdotnet.md#Private-CLR-Build) and [CoreRT](../../../docs/benchmarkdotnet.md#Private-CoreRT-Build)
 
 We once again encourage you to read the [full docs about BenchmarkDotNet](../../../docs/benchmarkdotnet.md#table-of-contents).
-
