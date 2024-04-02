@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <!-- for dependabot -->
+    <PERFLAB_TARGET_FRAMEWORKS Condition="'$(PERFLAB_TARGET_FRAMEWORKS)' == ''">net8.0</PERFLAB_TARGET_FRAMEWORKS>    
     <TargetFrameworks>$(PERFLAB_TARGET_FRAMEWORKS)</TargetFrameworks>
     <TargetFramework Condition="'$(TargetFrameworks)' == ''">net6.0</TargetFramework>
     <LangVersion>latest</LangVersion>
